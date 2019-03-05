@@ -61,8 +61,10 @@ This Popup displays a text and an EditText where you can enter a login and one w
 Add this line in your project build.gradle at the end of repositories:
 
 ```
-repositories {
-    maven { url 'https://jitpack.io' } // THIS LINE
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' } // THIS LINE
+    }
 }
 ```
 
